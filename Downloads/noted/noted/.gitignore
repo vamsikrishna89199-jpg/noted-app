@@ -1,0 +1,14 @@
+# Firebase Secret Keys
+noted-b714f-firebase-adminsdk-fbsvc-ff803aa6b2.json
+
+# Dependencies
+node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# OS
+.DS_Store

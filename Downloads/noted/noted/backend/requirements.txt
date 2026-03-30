@@ -1,0 +1,9 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+python-dotenv==1.0.0
+qrcode[pil]==7.4.2
+Pillow==10.1.0
+Werkzeug==2.3.7
+groq==0.9.0
+firebase-admin
+gunicorn
