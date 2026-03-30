@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: noted-backend
+    env: python
+    plan: free
+    rootDir: backend
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: CORS_ALLOWED_ORIGINS
+        value: "*"
+      - key: GROQ_API_KEY
+        sync: false
+      - key: JWT_SECRET_KEY
+        generateValue: true
